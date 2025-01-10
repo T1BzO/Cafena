@@ -1,0 +1,26 @@
+Nume,Functie,TarifPeOra,ID,Parola,Oras,OraInceput,OraSfarsit
+Maria Popa,Manager,50,man123,parolaMan,Bucuresti,12,20
+Ion Ionescu,Ospatar,30,osp001,ospPass,Bucuresti,8,16
+Murarescu Vasile,Ospatar,30,osp002,ospPass,Bucuresti,16,24
+Ana Vasilescu,Barista,35,bar001,barPass,Bucuresti,8,16
+George Calinescu,Barista,32,bar002,barPass,Bucuresti,16,24
+Radu Dumitrescu,Manager,55,man124,parolaMan,Timisoara,10,18
+Ioana Muresan,Ospatar,28,osp003,ospPass,Timisoara,8,16
+Lucian Prodan,Ospatar,28,osp004,ospPass,Timisoara,16,24
+Corina Ene,Barista,34,bar003,barPass,Timisoara,8,16
+Vlad Stan,Barista,33,bar004,barPass,Timisoara,16,24
+Elena Radu,Manager,52,man125,parolaMan,Iasi,10,18
+Petru Andrei,Ospatar,29,osp005,ospPass,Iasi,8,16
+Gabriela Vlad,Ospatar,29,osp006,ospPass,Iasi,16,24
+Laura Stoian,Barista,31,bar005,barPass,Iasi,8,16
+Daniel Olaru,Barista,30,bar006,barPass,Iasi,16,24
+Cristina Popescu,Manager,53,man126,parolaMan,Cluj,10,18
+Vasile Croitoru,Ospatar,27,osp007,ospPass,Cluj,8,16
+Adriana Ilie,Ospatar,27,osp008,ospPass,Cluj,16,24
+Andreea Gheorghe,Barista,32,bar007,barPass,Cluj,8,16
+Marian Drăgan,Barista,30,bar008,barPass,Cluj,16,24
+Ioan Mihailescu,Manager,54,man127,parolaMan,Brasov,10,18
+Mihai Florescu,Ospatar,28,osp009,ospPass,Brasov,8,16
+Lavinia Rusu,Ospatar,28,osp010,ospPass,Brasov,16,24
+Simona Neagu,Barista,33,bar009,barPass,Brasov,8,16
+Claudiu Marin,Barista,34,bar010,barPass,Brasov,16,24

@@ -1,0 +1,20 @@
+Test ID;Functionalitate;Input;Rezultat asteptat;;;;
+TC01;Citirea fisierului Produse.csv;Fisier corect format (Nume, Pret, Cantitate);Produsele sunt incarcate corect in sistem.;pass;;;
+TC02;Citirea fisierului Produse.csv;Fisier corupt cu linii incomplete;Liniile corupte sunt ignorate, iar restul sunt incarcate corect.;pass;;;
+TC03;Adaugare produs nou in stoc;Produs: 'espresso', Pret: 8.5, Cantitate: 15;Produsul apare in stoc cu datele specificate.;;;;nu am implementat
+TC04;Stergere produs din stoc;Produs: 'americano';Produsul este eliminat din stoc.;;;;nu am implementat
+TC05;Adaugare comanda;Client nou: 'Ion Ionescu', Produs: 'americano', Cantitate: 2;Comanda este adaugata si produsul este scazut din stoc.;pass;;;
+TC06;Adaugare comanda;Client existent cu ID: '2', Produs: 'latte', Cantitate: 3;Produsul este adaugat la comanda, iar reducerea este aplicata daca clientul este fidel.;pass;;;
+TC07;Comanda produs inexistent;Produs: 'capuccino';Mesaj de eroare: 'Produsul nu exista in lista.';pass;;;
+TC08;Reducere pentru client fidel;Client cu 10 comenzi plasate;Reducerea de 10% este aplicata automat la urmatoarea comanda.;pass;;;
+TC09;Reducere pentru client fidel;Client cu 30 comenzi plasate;Reducerea de 20% este aplicata automat la urmatoarea comanda.;pass;;;
+TC10;Gestionarea angajatilor;Adaugare angajat: 'Maria Popescu', Functie: 'Barista', Ora inceput: 9, Ora sfarsit: 17;Angajatul este adaugat corect si apare in fisierul Angajati.csv.;pass;;;
+TC11;Gestionarea angajatilor;Stergere angajat: ID: '5';Angajatul este eliminat din sistem.;pass;;;
+TC12;Planificare eveniment;Eveniment: 'Degustare Cafea', Cost: 500;Evenimentul este adaugat si apare in lista de evenimente speciale.;pass;;;
+TC13;Generare raport zilnic;Comenzi si costuri din ziua curenta;Raportul include veniturile totale, costurile produselor si salariile angajatilor.;pass;;;
+TC14;Export fisiere CSV;Export Produse.csv si Comenzi.csv;Fisierele sunt salvate corect si reflecta modificarile recente.;pass;;;
+TC15;Import fisiere CSV;Import fisiere Angajati.csv, Produse.csv;Datele sunt incarcate corect in sistem.;pass;;;
+TC16;Exceptii in fisiere CSV;Fisier Produse.csv lipsa;Mesaj de eroare: 'Nu se poate deschide fisierul Produse.csv.';pass;;;
+TC17;Calcul profit;Comenzi plasate si costuri angajati;Profitul zilnic este calculat corect si afisat in raport.;pass;;;
+TC18;Limba aplicatie;Selectare limba: Engleza;Interfata aplicatiei este afisata in limba engleza.;nu;;;
+TC19;Gestionarea stocurilor;Produs: 'tea', Cantitate scazuta peste stoc disponibil;Mesaj de eroare: 'Stoc insuficient pentru produsul 'tea'.';pass;;;
