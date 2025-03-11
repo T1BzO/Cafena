@@ -1,6 +1,6 @@
 # Cafena
 
-Un proiect realizat pentru laboratorul de Programare Orientata pe Obiecte (POO), destinat gestionarii unei retele de cafenele din Romania. Acest sistem permite managementul eficient al angajatilor, stocurilor, comenzilor, evenimentelor speciale si generarea de rapoarte financiare.
+Un proiect  destinat gestionarii unei retele de cafenele din Romania. Acest sistem permite managementul eficient al angajatilor, stocurilor, comenzilor, evenimentelor speciale si generarea de rapoarte financiare.
 
 ## Functionalitati
 
@@ -90,7 +90,7 @@ Un proiect realizat pentru laboratorul de Programare Orientata pe Obiecte (POO),
 
 ## Autori
 - **Nume**: Tibi
-- **Universitate**: Facultatea de Informatica, Romania
+- **Universitate**: Facultatea de Automatica si Calculatoare, Romania
 
 ## Licenta
 Acest proiect este licentiat sub [MIT License](LICENSE).
